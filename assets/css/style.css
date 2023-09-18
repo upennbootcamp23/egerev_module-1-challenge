@@ -1,0 +1,263 @@
+/* Universal class locator for CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Setting background color to aquamarine */
+body {
+    background-color: aquamarine;
+}
+
+/* Everything that's needed for the header:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: yellow; /* Updating the colors of the "Horiseon" logo (REASON INSIDE THE README)*/
+}
+
+/* Supersizing the "Horiseon" logo */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Updating the "seo" portion of the logo (REASON INSIDE THE README) */
+.header h1 .seo {
+    color: blue;
+}
+
+/* Everything that's needed for the links:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Style type of the links */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Display links inline */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* The website's "cover picture" */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Moving the section titles */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* building the "SEO" portion */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* Everything that's needed for the "Benefits" portion:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* for "Benefit-Lead" */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* for "Benefit-Brand" */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* for "Benefit-Cost" */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Everything that's needed for the "Search Engine Optimization" portion:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* for SEO image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Enlarging the headers */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Everything that's needed for the footer:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Enlarging the footer */
+.footer h2 {
+    font-size: 20px;
+}
+
+/* Everything that's needed for the "Online Reputation Management" portion:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* for ORM image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+
+/* Everything that's needed for the "Social Media Marketing" portion:
+    - the padding
+    - the font family
+    - the background color
+    - and the color */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* for SMM (Social Media Marketing) image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Weblink color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Font size of all paragraphs */
+p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
